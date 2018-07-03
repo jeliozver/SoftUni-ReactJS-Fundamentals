@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+.wrapper .sliderImg {
+  max-height: 400px;
+}
+
+.wrapper .slider-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 150px;
+  height: 150px;
+}
+
+.wrapper .case-left {
+  left: 0;
+}
+
+.wrapper .case-right {
+  right: 0;
+}
+
+.images-container {
+  display: inline-block;
+}
+
+.character-details {
+  width: 20%;
+  margin: 0 auto;
+  border: 2px solid black;
+}
+
+.character-details p {
+  text-align: justify;
+  padding: 0 10px;
+}
+
+.characters-container img, .character-details img {
+  width: 300px;
+  height: 250px;
+  border: 3px solid orange;
+}
